@@ -5,7 +5,7 @@ import React, { FC } from 'react';
 
 const isServer = () => process && !(process as any).browser;
 
-const SSRProvider: FC = ({ children }) => {
+const MUINext: FC = ({ children }) => {
     if (isServer()) {
         const sheets = new ServerStyleSheets();
         const output = sheets.collect(children);
@@ -31,4 +31,4 @@ const SSRProvider: FC = ({ children }) => {
     }
 };
 
-export default SSRProvider;
+export default MUINext;
