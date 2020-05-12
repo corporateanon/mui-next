@@ -2,7 +2,7 @@
     "name": "mui-next",
     "version": "0.0.4",
     "description": "Wrapper component for MaterialUI SSR in Next",
-    "main": "index.js",
+    "main": "lib/index.js",
     "scripts": {
         "type-check": "tsc --noEmit",
         "type-check:watch": "npm run type-check -- --watch",
@@ -10,6 +10,10 @@
         "build:types": "tsc --emitDeclarationOnly",
         "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline"
     },
+    "files": [
+        "src",
+        "lib"
+    ],
     "author": "",
     "license": "ISC",
     "devDependencies": {
