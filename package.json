@@ -11,8 +11,8 @@
         "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline"
     },
     "files": [
-        "src",
-        "lib"
+        "src/**/*.*",
+        "lib/**/*.*"
     ],
     "author": "",
     "license": "ISC",
