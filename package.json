@@ -1,6 +1,6 @@
 {
     "name": "mui-next",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "Wrapper component for MaterialUI SSR in Next",
     "main": "lib/index.js",
     "scripts": {
